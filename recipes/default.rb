@@ -1,3 +1,7 @@
+include_recipe "libxrender"
+include_recipe "libfontconfig"
+include_recipe "libfreetype"
+
 packages = %w/
   libxft2
 /
