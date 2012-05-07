@@ -1,0 +1,9 @@
+packages = %w/
+  libxft2
+/
+
+packages.each do |pkg|
+  package pkg do
+    action [:install, :upgrade]
+  end
+end
